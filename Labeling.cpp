@@ -206,7 +206,7 @@ int main()
 	BITMAPINFOHEADER hInfo; // 40바이트
 	RGBQUAD hRGB[256]; // 1024바이트
 	FILE* fp;
-	fp = fopen("LENNA.bmp", "rb");
+	fp = fopen("pupil.bmp", "rb");
 	if (fp == NULL) {
 		printf("File not found!\n");
 		return -1;
